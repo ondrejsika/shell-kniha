@@ -2,6 +2,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[margin=2cm]{geometry}
 \usepackage[parfill]{parskip}
+\usepackage{listings}
+\lstset{
+   breaklines=true,
+   basicstyle=\ttfamily}
 
 \title{Uvod do shellu}
 \author{Ondrej Sika}
@@ -9,5 +13,41 @@
 
 \begin{document}
 \include{intro}
+
+\section{Predmluva}
+
+Pred tim nez jsem zacal vysvetlovat programovani musel jsem nejdrive vysvetlit jak se pracuje v terminalu, tedy v shellu. V teto knizce nechci popisovat jak funguji podminu a cykli v Bashi a jak v nem programovat, ale chci lidem ktery nemaji s shellem zadne zkusenosti ukazat jak shell funguje a jak v nem spoustet dalsi programy.
+
+Tato knizka je vhodna pro uvod do Linuxu a je vhodna pred tim nez se pustime do programovani podle Python knihy a Flask knihy.
+
+Pyhton kniha sice popisuje nejake zakladni funkce shellu, ale je to jen nutne minimum, pro spusteni Python shellu.
+
+Preji prijemne cteni.
+
+
+\section{Uvod}
+\subsection{Co je to Shell?}
+
+Shell je interpret prikazu ktery se stata o spoustneni programu, komunikaci s uzivartelem a jadrem operacniho systemu. \cite{wiki-shell}
+
+\section{Druhy shellu}
+\section{Bash}
+\section{Souborovy system}
+\section{Vim}
+\section{Zaver}
+
+\begin{thebibliography}{10}
+%  \bibitem{python-kniha}Ondrej Sika:
+%    {\em Python kniha}.\\
+%    Sika Press, Praha, 2015.\\
+%    ISBN 80-85867-35-4.\\
+%    \lstinline|https://ondrejsika.com/books/python-kniha|
+%  \bibitem{homesim}Ondrej Sika:
+%    {\em Latex paper examples}. (brezen 2015).\\
+%    \lstinline|https://ondrejsika.com/others/latex/|
+  \bibitem{wiki-shell} Wikipedia:
+    \emph{Shell (Programovani)}. (brezen 2015).\\
+    \lstinline|https://cs.wikipedia.org/wiki/Shell_(programov%C3%A1n%C3%AD)|
+\end{thebibliography}
 \end{document}
 
